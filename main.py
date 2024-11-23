@@ -10,7 +10,13 @@ with col1:
 with col2:
     st.title("Chris Reid")
     content = """
-    Hi, I am Chris! I am a Python developer, avid curler and aspiring rock guitarist
+    Hi, I am Chris! I am a Python developer, avid curler and aspiring rock
+    guitarist
     """
     st.info(content)
 
+description = """
+Below you can find some of the apps I have built in Python. Feel free to 
+contact me!
+"""
+st.write(description)
